@@ -1,0 +1,29 @@
+/* Reset margin, set full height */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Flex container for entire app */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* full viewport height */
+}
+
+/* Main content grows and pushes footer down */
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Footer styles */
+footer {
+  background: linear-gradient(135deg, #f8bbd0, #e1bee7, #bbdefb, #c8e6c9);
+  color: #333;
+  padding: 15px 10px;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05);
+}

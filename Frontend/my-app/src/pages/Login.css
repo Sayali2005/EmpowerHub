@@ -1,0 +1,91 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f4f6f8; /* light gray for soft contrast */
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Centered container with shadow */
+.login-container {
+  margin: 60px auto;
+  background-color: #fff;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+}
+
+/* Headings */
+h1, h2 {
+  color: #333;
+}
+
+h2 {
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+/* Form group spacing */
+.group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.group label {
+  font-size: 15px;
+  color: #444;
+  font-weight: 500;
+}
+
+/* Input fields */
+.group input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: border-color 0.3s;
+}
+
+.group input:focus {
+  outline: none;
+  border-color: #66bfbf;
+}
+
+/* Button styling */
+.btn {
+  background-color: #f58ef7;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #f244af;
+}
+
+/* Register link below form */
+.register-link {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.register-link a {
+  color: #fd0d51 ;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}

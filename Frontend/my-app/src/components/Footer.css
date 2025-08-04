@@ -1,0 +1,47 @@
+/* components/Footer.css */
+
+.footer {
+  background: linear-gradient(135deg, #f8bbd0, #e1bee7, #bbdefb, #c8e6c9);
+  color: #333;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 14px;
+  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  margin-top: 5px;
+}
+
+.footer-links a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 5px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #ff4081; /* Soft pink highlight on hover */
+}
+
+.footer-social {
+  margin-top: 20px;
+}
+
+.footer-social a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #ff4081; /* Soft pink highlight on hover */
+}

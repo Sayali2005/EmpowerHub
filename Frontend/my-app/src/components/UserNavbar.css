@@ -1,0 +1,58 @@
+/* components/UserNavbar.css */
+
+.user-navbar {
+  background: linear-gradient(90deg, #9b4dca, #f06292, #ff7043, #ffeb3b);
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  height: 2.25rem;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-brand {
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffeb3b; /* Highlight with yellow on hover */
+}
+
+.user-name {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.logout-button {
+  padding: 6px 12px;
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #c9302c;
+}

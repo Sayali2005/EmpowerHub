@@ -1,0 +1,58 @@
+/* Navbar.css */
+
+.navbar, .user-navbar {
+  background: linear-gradient(90deg, #7f00ff, #e100ff, #ff4e00, #ffb300);
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2.25rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 8px rgba(255, 105, 180, 0.4);
+  text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.nav-brand {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 1.2px;
+}
+
+.nav-links a {
+  color: white;
+  margin-left: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #fff7cc; /* soft yellow highlight */
+}
+
+.logout-button {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  border: 1px solid white;
+  padding: 6px 14px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-left: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: white;
+  color: #ff4e00; /* bright orange on hover */
+}
+
+.user-name {
+  margin-left: 20px;
+  font-weight: 700;
+  color: #fff3b0; /* pale yellow */
+  text-shadow: 1px 1px 2px #a63a88; /* subtle violet shadow */
+}

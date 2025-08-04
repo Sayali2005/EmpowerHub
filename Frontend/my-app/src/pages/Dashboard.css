@@ -1,0 +1,52 @@
+.dashboard-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.info-boxes {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.info-card {
+  flex: 1;
+  min-width: 250px;
+  background: #f1f1f1;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.code {
+  font-size: 1.2rem;
+  color: #0d6efd;
+  font-weight: bold;
+}
+
+.amount {
+  font-size: 1.4rem;
+  color: #28a745;
+  font-weight: bold;
+}
+
+.rewards-section {
+  background: #fff4e6;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.rewards-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.rewards-section li {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
