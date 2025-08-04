@@ -11,7 +11,7 @@ mongoose.connect(process.env.MONGO_URI, {
 
 
 const app = express();
-const PORT = 9000;
+const PORT = process.env.PORT || 9000 ;
 
 // Middleware
 app.use(cors());
