@@ -4,11 +4,6 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 require("dotenv").config(); // Add at the top
 
-mongoose.connect(process.env.MONGO_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
-
 
 const app = express();
 const PORT = process.env.PORT || 9000 ;
@@ -18,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 // Connect to local MongoDB
-mongoose.connect("process.env.MONGO_URI", {
+mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })

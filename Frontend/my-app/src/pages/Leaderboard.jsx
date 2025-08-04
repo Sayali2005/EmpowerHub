@@ -6,7 +6,7 @@ const Leaderboard = () => {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:9000/api/leaderboard")
+    axios.get("https://empowerhub.onrender.com/api/leaderboard")
       .then((response) => setUsers(response.data))
       .catch((error) => console.error("Error fetching leaderboard:", error));
   }, []);

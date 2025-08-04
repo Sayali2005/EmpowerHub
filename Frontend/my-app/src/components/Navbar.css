@@ -56,3 +56,39 @@
   color: #fff3b0; /* pale yellow */
   text-shadow: 1px 1px 2px #a63a88; /* subtle violet shadow */
 }
+
+/* Hide hamburger by default */
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: white;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 65px;
+    right: 0;
+    background-color: #7f00ff;
+    flex-direction: column;
+    width: 200px;
+    display: none;
+    padding: 20px;
+    border-radius: 0 0 0 12px;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links a {
+    margin: 12px 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}

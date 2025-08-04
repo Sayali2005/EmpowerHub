@@ -56,3 +56,42 @@
 .logout-button:hover {
   background-color: #c9302c;
 }
+
+.navbar {
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.hamburger {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 10px 20px;
+    z-index: 100;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links a {
+    margin: 10px 0;
+    font-size: 1.1rem;
+  }
+}

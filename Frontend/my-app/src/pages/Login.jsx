@@ -12,7 +12,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const res = await axios.post("http://localhost:9000/api/login", {
+      const res = await axios.post("https://empowerhub.onrender.com/api/login", {
         username,
         password
       });
